@@ -1,0 +1,239 @@
+body {
+    font-size: $base-font-size;
+    font-family: 'PT Sans Narrow', 'Helvetica', 'Roboto', sans-serif;
+}
+
+p {
+    margin: 0;
+}
+
+h1 {
+    font-size: 3rem;
+}
+h2 {
+    font-size: 2rem;
+}
+
+
+h3 {
+    font-size: 1.5rem;
+}
+
+h4 {
+    font-size: 1rem;
+}
+
+button, input {
+    outline: none;
+    border: none;
+    border-radius: $border-radius;
+    padding: 5px 10px;
+}
+
+input {
+    height: $input-height;
+    border: 2px solid $color-feature;
+}
+
+button {
+    height: $input-height;
+    border: 1px solid $color-feature;
+    background-color: $color-feature;
+    color: $text-color-brand;
+}
+
+a {
+    color: $text-color-link;
+    text-decoration: none;
+}
+
+.container {
+    width: 100%;
+    padding: 0;
+    margin: 0 auto;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+// Common
+.show {
+
+}
+
+.hide {
+
+}
+
+.active {
+    position: absolute;
+    .resource-cover {
+        opacity: 0;
+        z-index: -1;
+    }
+    max-height: inherit !important;
+
+    flex: 1 0.000000001 100% !important;
+    order: 2;
+}
+
+// Resource
+
+.resource-group {
+    margin: auto;
+    background: relative;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-position: bottom;
+}
+
+.resource {
+    box-sizing: border-box;
+    position: relative;
+    margin: $margin-second;
+    max-height: 250px;
+    //min-width: 200px;
+    border-radius: $border-radius;
+    //flex: 1 0 300px;
+    flex: 1 1 10%;
+    justify-content: space-between;
+    display: flex;
+    flex-direction: row;
+    padding: $padding-base;
+    overflow: hidden;
+    background: rgba(255, 255, 255, 0.8);
+    z-index: 5;
+    &:after {
+        content: "";
+        background: url('../img/bg_hor.jpg') bottom center;
+        opacity: 0.5;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        position: absolute;
+        z-index: -1;   
+      }
+}
+
+.resource-cover {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background: url('../img/bg_hor.jpg') repeat-x 0 bottom  $color-brand ;
+    display: block;
+    border-radius: $border-radius;
+    z-index: 1;
+    font-size: 2rem;
+    padding: $padding-base;
+    text-align: center;
+}
+
+.cover-title {
+    color: $text-color-brand;
+    opacity: 1;
+    font-size: $cover-heading-font-size;
+    text-align: left;
+}
+
+.resource-title {
+    margin: 0 auto;
+    margin-bottom: $margin-base;
+    display: inline-block;
+    line-height: 1em;
+    text-align: center;
+    color: $text-color-main;
+    font-size: $heading-font-size;
+}
+
+.resource-content {
+    padding: $padding-base;
+    margin-bottom: auto;
+    flex-grow: 1;
+}
+
+.resource-img {
+    height: 300px;
+    width: auto;
+    float: left;
+    margin-right: $margin-base;
+    margin-bottom: $margin-second;
+    vertical-align: top;
+    //padding: $padding-second;
+}
+
+.resource-text {
+    padding: 0 $padding-second;
+    vertical-align: top;
+}
+
+// Resource advanced
+
+.resource-advanced {
+    min-width: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.advanced-group {
+    display: flex;
+    flex-flow: column;
+    justify-content: flex-start;
+    align-items: stretch;
+    padding: $padding-base;
+    border-top: 1px solid $color-second;
+    &:first-of-type {
+        border-top: 0;
+    }
+}
+
+.advanced-nav {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.advanced-nav-link {
+    
+}
+
+.advanced-search {
+    position: relative;
+    .advanced-input {
+        width: 100%;
+        padding-right: $input-height;
+    }
+    .advanced-button{
+        position: absolute;
+        right: 0;
+        top: 0;
+        height: $input-height;
+        width: $input-height;
+        border-radius: 0 $border-radius $border-radius 0;
+    }
+}
+
+
+.header {
+    margin: $margin-base 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.footer {
+    margin-top: $margin-base;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+}

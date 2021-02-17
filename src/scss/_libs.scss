@@ -1,0 +1,25 @@
+// Custom.scss
+// Option B: Include parts of Bootstrap
+
+// Required
+
+// Reset css
+@import "../../node_modules/reset-css/sass/reset";
+
+// Slick carousel
+//@import "../../node_modules/slick-carousel/slick/slick.scss";
+
+// Bootstrap
+// @import "../../node_modules/bootstrap/scss/functions";
+// @import "../../node_modules/bootstrap/scss/variables";
+// @import "../../node_modules/bootstrap/scss/mixins";
+// @import "../../node_modules/bootstrap/scss/grid";
+// @import "../../node_modules/bootstrap/scss/reboot";
+
+// // Fontawesome
+// $fa-font-path: '../fonts';
+// @import "../../node_modules/@fortawesome/fontawesome-free/scss/fontawesome";
+// @import "../../node_modules/@fortawesome/fontawesome-free/scss/brands";
+// @import "../../node_modules/@fortawesome/fontawesome-free/scss/regular";
+// @import "../../node_modules/@fortawesome/fontawesome-free/scss/solid";
+// @import "../../node_modules/@fortawesome/fontawesome-free/scss/v4-shims";
