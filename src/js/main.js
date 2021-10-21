@@ -1,10 +1,10 @@
 const resources = document.querySelectorAll('.resource');
-resources[0].classList.add('active');
+// ! resources[0].classList.add('active');
 
 function backgroundOffset(elem) {
     const offset = elem.offsetLeft;
     elem.style.backgroundPositionX = offset + 'px';
-    console.log(offset);
+    // ? console.log(offset);
 };
 
 
@@ -25,10 +25,11 @@ resources.forEach(item => {
     cover.querySelector('.cover-title').textContent = title;
     item.addEventListener('click', (event) => {
         //resources.forEach(item => item.classList.remove('active'));
-        item.classList.toggle('active');
+        item.classList.add('active');
         coversBackgroundOffset();
 
         document.body.addEventListener('click', (event) => {
+            // ? console.log(item);
             if (event.target.closest('.resource') !== item) {
                 item.classList.remove('active');
                 coversBackgroundOffset();
