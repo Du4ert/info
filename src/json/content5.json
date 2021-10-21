@@ -1,0 +1,115 @@
+[{
+    "nav": true,
+    "search": true,
+    "title": "Морской биологический журнал",
+    "img": "mbj.jpg",
+    "text": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officia, perferendis!",
+    "link": "#",
+    "navList": [
+        {
+            "link": "#",
+            "title": "Главная"
+        },
+        {
+            "link": "#",
+            "title": "Выпуски"
+        },
+        {
+            "link": "#",
+            "title": "О журнале"
+        },
+        {
+            "link": "#",
+            "title": "Редколлегия"
+        }
+    ]
+},
+{
+    "nav": true,
+    "search": false,
+    "title": "База данных Sci Info",
+    "img": "sci-info_hor.jpg",
+    "text": "Lorem ipsum dolorr adipisicing elit. Officia, perferendis!",
+    "link": "#",
+    "navList": [{
+            "link": "#",
+            "title": "Главная"
+        },
+        {
+            "link": "#",
+            "title": "Публикации"
+        },
+        {
+            "link": "#",
+            "title": "Экспедиции"
+        },
+        {
+            "link": "#",
+            "title": "Данные"
+        },
+        {
+            "link": "#",
+            "title": "Сотрудники"
+        },
+        {
+            "link": "#",
+            "title": "Отчеты"
+        }
+
+    ]
+},
+{
+    "nav": true,
+    "search": false,
+    "title": "Каталог рейсов ИнБЮМ",
+    "img": "cruises.jpg",
+    "text": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officia, perferendis!",
+    "link": "#",
+    "navList": [{
+            "link": "#",
+            "title": "Главная"
+        },
+        {
+            "link": "#",
+            "title": "Экспедиционный флот"
+        },
+        {
+            "link": "#",
+            "title": "Список рейсов"
+        },
+        {
+            "link": "#",
+            "title": "О базе данных"
+        }
+    ]
+},
+{
+    "nav": false,
+    "search": true,
+    "title": "Репозиторий открытого доступа",
+    "img": "repository.png",
+    "text": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officia, perferendis!",
+    "link": "#"
+},
+{
+    "nav": "true",
+    "search": "true",
+    "title": "Медиаархив",
+    "img": "media.png",
+    "text": "Lorem, sit amet consectetur adipisicing elit. Officia, perferendis!",
+    "link": "#",
+    "navList": [{
+            "link": "#",
+            "title": "Фото/документы"
+        },
+        {
+            "link": "#",
+            "title": "Коллекции"
+        },
+        {
+            "link": "#",
+            "title": "Теги"
+        }
+    ]
+}
+]

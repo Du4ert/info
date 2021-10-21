@@ -1,6 +1,6 @@
 module.exports = function() {
     $.gulp.task('html', function() {
-    return $.gulp.src('src/*.html')
+    return $.gulp.src('src/html/index.html')
         .pipe($.gp.fileInclude({    // include в html
             prefix: '@@',
             basepath: 'src/html'
