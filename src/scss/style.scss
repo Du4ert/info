@@ -74,7 +74,7 @@ a {
     }
     max-height: inherit !important;
 
-    flex: 1 0.000000001 100% !important;
+    flex: 1 1 100% !important;
     order: 2;
 }
 
@@ -94,11 +94,11 @@ a {
     box-sizing: border-box;
     position: relative;
     margin: $margin-second;
-    max-height: 250px;
+    max-height: 300px;
     //min-width: 200px;
     border-radius: $border-radius;
     //flex: 1 0 300px;
-    flex: 1 1 10%;
+    flex: 1 1 18%;
     justify-content: space-between;
     display: flex;
     flex-direction: row;

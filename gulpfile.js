@@ -27,6 +27,7 @@ $.gulp.task('set-dev', function(done) {
 
 $.gulp.task('build', $.gulp.series(
     $.gulp.parallel('clean', 'set-prod'),
+    // ? $.gulp.parallel('html', 'fonts', 'sass', 'script:lib', 'script', 'img')
     $.gulp.parallel('html', 'fonts', 'sass', 'script:lib', 'script', 'img')
 ));
 
