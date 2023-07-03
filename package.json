@@ -23,13 +23,13 @@
     "gulp-image": "^6.1.0",
     "gulp-load-plugins": "^2.0.2",
     "gulp-notify": "^3.2.0",
-    "gulp-sass": "^4.0.2",
     "gulp-sourcemaps": "^2.6.5",
     "gulp-terser": "^1.2.1"
   },
   "dependencies": {
     "@fortawesome/fontawesome-free": "^5.14.0",
     "bootstrap": "^4.5.0",
+    "gulp-dart-sass": "^1.1.0",
     "jquery": "^3.4.1",
     "modal-video": "^2.4.2",
     "reset-css": "^5.0.1",

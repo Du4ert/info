@@ -2,7 +2,7 @@ module.exports = function() {
     $.gulp.task('sass', function() {
     return $.gulp.src('src/scss/main.scss')
         .pipe($.gp.if($.env === 'development', $.gp.sourcemaps.init()))
-        .pipe($.gp.sass())
+        .pipe($.gp.dartSass())
         .pipe($.gp.autoprefixer())
         .on("error", $.gp.notify.onError({
             title: 'style'
